@@ -1,0 +1,8 @@
+{
+  "name": "capstone-api-m3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:iasmimd/capstone-api-m3.git",
+  "author": "<iasmimstuff@gmail.com>",
+  "license": "MIT"
+}
