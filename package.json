@@ -6,6 +6,9 @@
   "author": "<iasmimstuff@gmail.com>",
   "license": "MIT",
   "type": "module",  
+  "engines": {
+    "node": "17"
+  },
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js"
