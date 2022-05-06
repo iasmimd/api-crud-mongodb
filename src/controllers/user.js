@@ -16,6 +16,16 @@ class UserControllers {
 
         } catch (error) {
             res.status(500).json({ "error": "algo deu errado ):" })
+            console.log(error)
+        }
+    }
+
+    static async findAll(req, res) {
+        try {
+            const users = await User.find()
+            return res.json(users)
+        } catch (error) {
+            return res.status(500).json({ "error": "algo deu errado" })
         }
     }
 }

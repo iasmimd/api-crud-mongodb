@@ -15,7 +15,6 @@ const UserSchema = new mongoose.Schema({
     },
     avatarUrl:{
         type: String,
-        required: true,
         default: "https://w7.pngwing.com/pngs/223/244/png-transparent-computer-icons-avatar-user-profile-avatar-heroes-rectangle-black.png"
     },
     createdAt:{
@@ -28,6 +27,6 @@ const UserSchema = new mongoose.Schema({
     },
 })
 
-const User = mongoose.model("user", UserSchema)
+const User = mongoose.model("User", UserSchema)
 
 export default User
