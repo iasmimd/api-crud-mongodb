@@ -5,7 +5,7 @@
   "repository": "git@github.com:iasmimd/capstone-api-m3.git",
   "author": "<iasmimstuff@gmail.com>",
   "license": "MIT",
-  "type": "module",
+  "type": "module",  
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js"

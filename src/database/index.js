@@ -3,7 +3,8 @@ import { config } from "dotenv"
 
 config()
 
-mongoose.connect(process.env.MONGO_URL, {useNewUrlParser: true})
+mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, })
+
 mongoose.Promise = global.Promise
 
-export default mongoose
+export default  mongoose
